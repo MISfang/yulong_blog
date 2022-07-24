@@ -75,13 +75,6 @@ function Hero() {
             {`在这里你能了解到各类实战开发的所遇到的问题，帮助你在学习的过程了解最新的技术栈，并希望我的个人经历对你有所启发。`}
           </Translate>
         </animated.p>
-        {/* {currentLocale === 'zh-CN' && (
-          <animated.p style={animatedTexts[3]}>
-            <Translate id='homepage.qqgroup1' description='qq group1'>
-              QQ 群：5478458
-            </Translate>
-          </animated.p>
-        )} */}
         <SocialLinks animatedProps={animatedTexts[4]} />
         {
           <animated.div style={animatedTexts[2]}>
