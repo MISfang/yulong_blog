@@ -37,7 +37,7 @@ export function BlogUser({ count, isNavbar = false }: { count?: Count; isNavbar?
       </Link>
       <div>
         <Link className='bloginfo__name' href='about'>
-          愧怍
+          隔壁老方
         </Link>
       </div>
       <div className='bloginfo__description'>不是巅峰时的信仰，而是黄昏时的追逐</div>
@@ -122,7 +122,7 @@ export default function BlogInfo() {
       <div className='bloghome__posts-card margin-bottom--md'>
         <div className='row bloginfo__card'>
           <div>
-            <FontAwesomeIcon icon={faTag as IconProp} color='#23affc' style={{ transform: 'rotate(90deg)' }} />
+            <FontAwesomeIcon icon={faTag as IconProp} color='#9c28b0' style={{ transform: 'rotate(90deg)' }} />
             <Link className='margin-horiz--sm' href='/tags'>
               标签
             </Link>
@@ -133,7 +133,7 @@ export default function BlogInfo() {
       <div className='bloghome__posts-card margin-bottom--md'>
         <div className='row bloginfo__card'>
           <div>
-            <FontAwesomeIcon icon={faBook as IconProp} color='#23affc' />
+            <FontAwesomeIcon icon={faBook as IconProp} color='#9c28b0' />
             <Link className='margin-horiz--sm' href='/docs/skill'>
               笔记
             </Link>

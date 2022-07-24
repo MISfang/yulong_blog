@@ -23,7 +23,7 @@
 
 .bloghome__intro .hero_text {
   font-size: calc(1.8em + 1.2vw);
-  /* font-weight: 600; */
+  font-weight: 550;
 }
 
 .bloghome__intro > p {
@@ -75,7 +75,7 @@ html[data-theme='dark'] .bloghome__intro > p {
 }
 /* __js_rotate */
 .bloghome__image svg g g path {
-  fill:rgb(64, 147, 246) !important;
+  fill:rgb(64, 147, 246);
   animation: rotating 3s ease-in-out infinite;
   transform-origin: center center;
   transform-box: fill-box;

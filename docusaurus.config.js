@@ -47,7 +47,7 @@ const config = {
           position: 'right',
         },
         {
-          label: '归档',
+          label: '时间线',
           to: 'archive',
           position: 'right',
         },
@@ -66,29 +66,25 @@ const config = {
           ],
         },
         {
-          label: '小工具',
+          label: '工具收集',
           position: 'right',
           items: [
             {
-              label: 'API接口',
-              to: 'https://api.kuizuo.cn',
+              label: 'css阴影样式生成器',
+              to: 'https://shadows.brumm.af/',
             },
             {
-              label: 'JS代码混淆与还原',
-              to: 'https://deobfuscator.kuizuo.cn',
+              label: 'grid布局生产器',
+              to: 'https://cssgrid-generator.netlify.app/',
             },
             {
-              label: 'CyberChef在线加解密',
-              to: 'https://cipher.kuizuo.cn',
+              label: '波浪纹背景生产器',
+              to: 'https://svgwave.in/',
             },
             {
-              label: '愧怍在线工具',
-              to: 'https://tools.kuizuo.cn',
-            },
-            {
-              label: '愧怍网盘',
-              to: 'https://pan.kuizuo.cn',
-            },
+              label: 'animista动画库',
+              to: 'https://animista.net'
+            }
           ],
         },
         {
@@ -97,7 +93,7 @@ const config = {
           to: 'website',
         },
         {
-          label: '项目',
+          label: '个人项目',
           position: 'right',
           to: 'project',
         },
@@ -136,11 +132,11 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kuizuo',
+              href: 'https://github.com/MISfang',
             },
             {
               label: '掘金',
-              href: 'https://juejin.cn/user/1565318510545901',
+              href: 'https://juejin.cn/user/157950962044584',
             },
           ],
         },
@@ -157,7 +153,7 @@ const config = {
           }],
         },
       ],
-      copyright: `<p>Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.</p><p><a href="http://beian.miit.gov.cn/" >${beian}</a></p>`,
+      copyright: `Copyright © ${new Date().getFullYear()} 隔壁老方 Built with Docusaurus.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/okaidia'),
