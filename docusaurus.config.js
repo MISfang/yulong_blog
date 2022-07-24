@@ -1,12 +1,12 @@
 // @ts-check
-const path = require('path')
-const beian = '闽ICP备2020017848号-2'
+const path = require('path');
+const beian = '闽ICP备2020017848号-2';
 
-const announcementBarContent = `基于 <a href='https://v3.nuxtjs.org/'>Nuxt3</a> 实现 <a href='https://api.kuizuo.cn'>KZ API</a> 接口站点`
+const announcementBarContent = `这个Banner广告位招租 (手动狗头)`;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '愧怍的小站',
+  title: '老方的站',
   titleDelimiter: '-',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
@@ -15,6 +15,7 @@ const config = {
   projectName: 'blog',
   tagline: '记录所学知识，领略编程之美',
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  // @ts-ignore
   themeConfig: {
     image: 'img/logo.png',
     announcementBar: {
@@ -24,7 +25,7 @@ const config = {
     metadata: [
       {
         name: 'keywords',
-        content: '愧怍, kuizuo, blog, javascript, typescript, python ,node, react, vue, web, 前端, 后端',
+        content: '老方, kuizuo, blog, javascript, typescript, golong ,node, react, vue, web, 前端, 后端',
       },
     ],
     docs: {
@@ -33,9 +34,9 @@ const config = {
       }
     },
     navbar: {
-      title: '愧怍',
+      title: '隔壁老方',
       logo: {
-        alt: '愧怍',
+        alt: '隔壁老方',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -199,22 +200,9 @@ const config = {
       playgroundPosition: 'top',
     },
     socials: {
-      github: 'https://github.com/kuizuo',
-      twitter: 'https://twitter.com/kuizuo',
-      juejin: 'https://juejin.cn/user/1565318510545901',
-      csdn: 'https://blog.csdn.net/kuizuo12',
-      qq: 'https://wpa.qq.com/msgrd?v=3&amp;uin=911993023&amp;site=qq',
-      cloudmusic: 'https://music.163.com/#/user/home?id=1333010742',
+      github: 'https://github.com/MISfang',
+      juejin: 'https://juejin.cn/user/157950962044584',
     },
-    // googleAnalytics: {
-    //   trackingID: "UA-118572241-1",
-    //   anonymizeIP: true, // Should IPs be anonymized?
-    // },
-    // gtag: {
-    //   trackingID: "G-6PSESJX0BM",
-    //   // Optional fields.
-    //   anonymizeIP: true, // Should IPs be anonymized?
-    // },
   },
   presets: [
     [
@@ -233,7 +221,6 @@ const config = {
           changefreq: 'daily',
           priority: 0.5,
         },
-        // debug: true,
       }),
     ],
   ],
@@ -254,8 +241,8 @@ const config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '老方',
+          copyright: `Copyright © ${new Date().getFullYear()} 隔壁老方 Built with Docusaurus.`,
         },
       }
     ],
@@ -299,6 +286,6 @@ const config = {
     locales: ['zh'],
   },
   onBrokenLinks: 'ignore',
-}
+};
 
-module.exports = config
+module.exports = config;

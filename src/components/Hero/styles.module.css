@@ -76,7 +76,7 @@ html[data-theme='dark'] .bloghome__intro > p {
 /* __js_rotate */
 .bloghome__image svg g g path {
   fill:rgb(64, 147, 246) !important;
-  animation: rotating 4s ease-in-out infinite;
+  animation: rotating 3s ease-in-out infinite;
   transform-origin: center center;
   transform-box: fill-box;
 }
@@ -135,8 +135,8 @@ html[data-theme='dark'] .bloghome__intro > p {
 .social__links a {
   display: inline-flex;
   border: none;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -149,13 +149,14 @@ html[data-theme='dark'] .bloghome__intro > p {
 
 .social__links a:hover {
   background-color: rgba(0, 120, 231, 0.1);
+  cursor: pointer;
 }
 
 .social__links > *,
 .social__links svg,
 .social__links svg path {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   color: var(--ifm-color-primary);
   fill: var(--ifm-color-primary);
 }
@@ -176,6 +177,7 @@ html[data-theme='dark'] .bloghome__intro > p {
   right: 0;
   top: 120%;
 }
+
 
 @media (max-width: 1000px) {
   .hero {

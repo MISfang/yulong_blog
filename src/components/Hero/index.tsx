@@ -42,7 +42,7 @@ function Hero() {
       <div className={styles.bloghome__intro}>
         <animated.div style={animatedTexts[0]} className={styles.hero_text}>
           Hello! 我是
-          <span className={styles.intro__name}>愧怍</span>
+          <span className={styles.intro__name}>隔壁老方</span>
         </animated.div>
         <animated.p style={animatedTexts[1]}>
           <Translate
@@ -92,33 +92,31 @@ function Hero() {
 export function SocialLinks({ animatedProps, ...props }) {
   const { siteConfig } = useDocusaurusContext()
   const { themeConfig } = siteConfig
-  const socials = themeConfig.socials as { github: string; twitter: string; juejin: string; csdn: string; qq: string; wx: string; cloudmusic: string }
+  const socials = themeConfig.socials as { github: string; juejin: string; }
 
   return (
     <animated.div className={styles.social__links} style={animatedProps}>
-      <a href='./rss.xml' target='_blank'>
-        <RssIcon />
-      </a>
       <a href={socials.github} target='_blank'>
         <GithubIcon />
       </a>
       <a href={socials.juejin} target='_blank'>
         <JuejinIcon />
       </a>
-      {/* <a href='https://blog.csdn.net/kuizuo12' target='_blank'>
-        <CsdnIcon />
-      </a> */}
-      <a href={socials.qq} target='_blank'>
+      <a className={`dropdown ${styles.dropdown} dropdown--hoverable`}>
         <QqIcon />
+        <img
+          width="50%"
+          className={`dropdown__menu ${styles.dropdown__menu}`}
+          src={useBaseUrl("/img/qqImg.jpg")}
+        />
       </a>
-      {/* <a href='' target='_blank'>
+      <a className={`dropdown ${styles.dropdown} dropdown--hoverable`}>
         <WxIcon />
-      </a> */}
-      <a href={socials.twitter} target='_blank'>
-        <TwitterIcon />
-      </a>
-      <a href={socials.cloudmusic} target='_blank'>
-        <CloudMusicIcon />
+        <img
+          width="50%"
+          className={`dropdown__menu ${styles.dropdown__menu}`}
+          src={useBaseUrl("/img/wxImg.jpg")}
+        />
       </a>
     </animated.div>
   )
