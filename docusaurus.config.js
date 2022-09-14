@@ -2,7 +2,7 @@
 const path = require('path');
 const beian = '闽ICP备2020017848号-2';
 
-const announcementBarContent = `这个Banner广告位招租 (手动狗头)`;
+const announcementBarContent = `前端菜鸟，秋招求捞（狗头）`;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {

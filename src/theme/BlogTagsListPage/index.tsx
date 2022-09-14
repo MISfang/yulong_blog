@@ -13,7 +13,7 @@ import CardFilter from '@site/static/icons/card.svg'
 export default function BlogTagsListPage({ tags, sidebar }: Props): JSX.Element {
   const title = translateTagsPageTitle()
 
-  const [type, setType] = useState('letter')
+  const [type, setType] = useState('flat')
 
   return (
     <HtmlClassNameProvider className={clsx(ThemeClassNames.wrapper.blogPages, ThemeClassNames.page.blogTagsListPage)}>
@@ -23,8 +23,8 @@ export default function BlogTagsListPage({ tags, sidebar }: Props): JSX.Element 
         <div className='blogtag__swith-view'>
           <h1>{title}</h1>
           <div>
-            <ListFilter onClick={() => setType('letter')} className={type === 'letter' ? 'bloghome__switch--selected' : 'bloghome__switch'} />
             <CardFilter onClick={() => setType('flat')} className={type === 'flat' ? 'bloghome__switch--selected' : 'bloghome__switch'} />
+            <ListFilter onClick={() => setType('letter')} className={type === 'letter' ? 'bloghome__switch--selected' : 'bloghome__switch'} />
           </div>
         </div>
         {type === 'letter' && <TagsListByLetter tags={tags} />}
