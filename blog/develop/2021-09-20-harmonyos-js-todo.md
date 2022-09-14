@@ -1,10 +1,7 @@
 ---
 slug: harmonyos-js-todo
 title: 鸿蒙 OS：使用 JavaScript 开发 Todo App UI 界面
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 使用鸿蒙 JS 框架开发 Todo 应用的 TV 版 UI 界面。
 tags: [前端, 鸿蒙, JavaScript]
 activityId: "436748829132110033"

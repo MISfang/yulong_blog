@@ -1,10 +1,7 @@
 ---
 slug: web-performance-optimization-image-lazy-loading
 title: Web性能优化：使用图片懒加载推迟屏幕外图片的加载
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 在使用 chrome 的 lighthouse 对网站进行测速之后，发现有一条优化提示：推迟屏幕外的图片加载。之前有看到过要实现这样的效果需要使用 lazy loading，图片懒加载，但是需要使用 js 的方式来实现，由于本人十分懒惰，不想用太复杂的代码，于是在网上搜索了一番，发现 `<img>`  标签原生支持懒加载。
 tags: [前端, JavaScript, 性能优化]
 activityId: "505751086508281992"

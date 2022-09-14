@@ -1,10 +1,7 @@
 ---
 slug: webrtc-avatarify-face-swap-tutorial
 title: 实现前端网页 WebRTC 视频通话以及换脸特效
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 请输入描述
 tags: [前端, WebRTC, avatarify]
 activityId: "501899252469610680"

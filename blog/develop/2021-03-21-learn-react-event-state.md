@@ -1,13 +1,9 @@
 ---
 slug: learn-react-event-and-state
 title: React State 和 Event教程 - 制作渐变背景生成器
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: Hello! 今天来带你走进 React 的大门！我第一次听说 React 是我在美国读研的时候，室友选了 web programming 这节课，然后遇到了关于 react 的好多问题...
 tags: [前端, React]
-bvid: av97436637
 oid: "97436637"
 ---
 

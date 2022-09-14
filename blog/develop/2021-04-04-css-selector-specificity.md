@@ -1,13 +1,9 @@
 ---
 slug: css-selector-specificity
 title: CSS 选择器优先级特异性权重详解
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 在写 CSS 的时候你一定遇到过有些样式明明写对了，也选择了正确的 html 元素去应用这些样式，可是就是不生效，这是为什么呢？因为在选择同一个 HTML 元素的时候，不同的选择器有不同的优先级，优先级低的选择器的样式会被优先级高的覆盖。
 tags: [前端, CSS]
-bvid: BV1Fg4y1874w
 oid: "837635765"
 ---
 

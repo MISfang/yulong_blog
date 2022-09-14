@@ -1,10 +1,7 @@
 ---
 slug: front-end-learning-path
 title: 2020年最新前端工程师学习路线
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 tags: [前端, 职业]
 activityId: "361708917169913931"
 oid: "361708917169913931"

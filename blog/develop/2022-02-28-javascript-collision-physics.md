@@ -1,10 +1,7 @@
 ---
 slug: javascript-collision-physics
 title: JavaScript 游戏开发 - 物理碰撞引擎实现
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 从原生角度上如何实现游戏里的物理特性，例如运动、碰撞。不用框架编写一个简单的、基于 JavaScript Canvas 的物理引擎，实现小球的碰撞效果。
 tags: [前端, 游戏, JavaScript]
 acitivityId: "496710575489658086"

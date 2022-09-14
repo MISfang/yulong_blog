@@ -1,13 +1,9 @@
 ---
 slug: backend-intro
 title: 给前端工程师看的后端科普
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 前端工程师了解后端的功能和作用之后，能更好的和后端工程师进行沟通，减少沟通成本，另外也有助于向全栈工程师方向发展。
 tags: [前端, 后端]
-bvid: BV1XV411d7Cg
 oid: "413073953"
 ---
 

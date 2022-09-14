@@ -1,10 +1,7 @@
 ---
 slug: 1024-developer-health
 title: 1024：程序员，你的身体还好吗？
-author: 方宇龙
-author_title: 前端工程师
-author_url: https://github.com/MISfang
-author_image_url: https://tvax3.sinaimg.cn/crop.0.0.1080.1080.180/b2745d44ly8g8s4muqeggj20u00u0n0k.jpg?KID=imgbed,tva&Expires=1582389585&ssig=EvXmyu%2FXsX
+authors: kuizuo
 description: 从几何时，程序员成了加班、996 的代名词，从以前业务做不完偶尔加班变成了现在的常态，不得不说一句俗话：这是时代的进步还是倒退？
 tags: [健康]
 ---
